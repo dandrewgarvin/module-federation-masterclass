@@ -1,0 +1,221 @@
+<!-- Component Imports -->
+
+import { Box, Flex, Text, Image } from 'theme-ui';
+
+<!-- Image Imports -->
+
+import Mono from './assets/Monolith.png';
+import FAB from './assets/Front_and_Back.png';
+import MicroS from './assets/Microservice.png';
+import MicroF from './assets/Microfrontends.png';
+import Spotify from './assets/spotify_friend_feed.png';
+import SpotifyOutline from './assets/spotify_outlined.png';
+import MFHost from './assets/mf_host.png';
+import MFClient from './assets/mf_client.png';
+import MFIndex from './assets/mf_indexhtml.png';
+
+<!-- Start Presentation -->
+
+<Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+
+# Module Federation
+
+### A Presentation
+
+</Flex>
+
+---
+
+## What is the motivation behind module federation?
+
+---
+
+<Box style={{ width: '68vw' }}>
+
+<Text>
+
+"Multiple separate builds should form a single application. These separate builds should not have dependencies between each other, so they can be developed and deployed individually. This is often known as Micro-Frontends, but is not limited to that."
+
+</Text>
+
+<Text sx={{ fontSize: 24 }}>- Webpack 5 Documentation</Text>
+
+</Box>
+
+---
+
+<Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', alignItems: 'center', justifyContent: 'center' }}>
+
+# A Brief History of Micro-Frontends...
+
+</Flex>
+
+---
+
+<Box style={{ width: '68vw', textAlign: 'center' }}>
+
+<Text style={{ display: 'inline' }}>The term </Text>
+
+<Text style={{ display: 'inline', color: 'tomato' }}>Micro Frontends </Text>
+
+<Text style={{ display: 'inline' }}>
+  was first used in 2016 by ThoughtWorks Technology Radar to extend the concept
+  of micro services to the front-end world.
+</Text>
+
+</Box>
+
+---
+
+<Flex>
+  <Flex>
+    <img style={{ maxHeight: '60vh' }} src={Mono} alt='Monolith' />
+  </Flex>
+  <Steps>
+    <Flex>
+      <img style={{ maxHeight: '60vh' }} src={FAB} alt='Front and Back' />
+    </Flex>
+    <Flex>
+      <img style={{ maxHeight: '60vh' }} src={MicroS} alt='Microservice' />
+    </Flex>
+  </Steps>
+</Flex>
+
+---
+
+<Flex
+  style={{
+    height: '80vh',
+    width: '100vw',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}
+>
+  <img style={{ maxHeight: '100%' }} src={MicroF} alt='Microfrontend' />
+</Flex>
+
+---
+
+<Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+
+# What does this look like in practice?
+
+#### ...and why is it useful?
+
+</Flex>
+
+---
+
+<Flex
+  style={{
+    height: '80vh',
+    width: '100vw',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}
+>
+  <img
+    style={{ maxHeight: '100%' }}
+    src={Spotify}
+    alt='Spotify Friend Feed Broken'
+  />
+</Flex>
+
+---
+
+<Flex
+  style={{
+    height: '80vh',
+    width: '100vw',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}
+>
+  <img
+    style={{ maxHeight: '100%' }}
+    src={SpotifyOutline}
+    alt='Spotify Friend Feed Broken'
+  />
+</Flex>
+
+---
+
+<Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+
+# And the code?
+
+</Flex>
+
+---
+
+<Flex>
+  <img
+    style={{ maxHeight: '80vh' }}
+    src={MFHost}
+    alt='Module Federation Host Config'
+  />
+</Flex>
+
+---
+
+<Flex>
+  <img
+    style={{ maxHeight: '80vh' }}
+    src={MFClient}
+    alt='Module Federation Client Config'
+  />
+</Flex>
+
+---
+
+<Flex>
+  <img
+    style={{ maxHeight: '80vh' }}
+    src={MFIndex}
+    alt='Module Federation index.html file'
+  />
+</Flex>
+
+---
+
+<Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+
+# LIVE DEMO, BABY
+
+</Flex>
+
+---
+
+<Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+
+#### But first, let us offer a silent prayer to the gods of technology that this demo will work
+
+</Flex>
+
+---
+
+<Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+
+# OKAY NOW LIVE DEMO, BABY
+
+</Flex>
+
+---
+
+<Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+
+# Pros & Cons of Module Federation
+
+</Flex>
+
+<!-- PROS AND CONS SECTION -->
+
+---
+
+<Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+
+# Q&A Time with Andrew
+
+</Flex>
+
+<!-- Q&A TIME -->
