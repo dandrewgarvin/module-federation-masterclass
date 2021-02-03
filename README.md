@@ -2,7 +2,11 @@
 
 This repo is a slideshow presentation outlining the history and use-case of module federation.
 
-### note: This app was built with [mdx-deck](https://github.com/jxnblk/mdx-deck)
+![](./presentation.gif)
+
+#### Note: This app was built with [mdx-deck](https://github.com/jxnblk/mdx-deck)
+
+## Setup
 
 To run in, do the following:
 
