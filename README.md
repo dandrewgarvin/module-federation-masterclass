@@ -13,3 +13,18 @@ To run in, do the following:
 1. run `npm i`
 2. npm `npm start`
 3. begin navigating with either the left and right arrow keys, or the spacebar
+
+## External Links
+
+- [Webpack 5](https://webpack.js.org/concepts/module-federation/)
+- [Micro-Frontends](https://micro-frontends.org/)
+- [ThoughtWorks Technology Radar: Micro-Frontends](https://www.thoughtworks.com/radar/techniques/micro-frontends)
+- [Tractor Demos](https://the-tractor.store/)
+- [This Repo (ooh recursion](https://github.com/dandrewgarvin/module-federation-masterclass)
+
+## Credits
+
+- [MDX-Deck](https://github.com/jxnblk/mdx-deck)
+- [Carbon](https://carbon.now.sh)
+- [Cleanshot](https://cleanshot.com/)
+- [TailwindUI / TailwindCSS](https://tailwindui.com/)
