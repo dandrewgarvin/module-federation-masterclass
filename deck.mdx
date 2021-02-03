@@ -52,18 +52,26 @@ import MFIndex from './assets/mf_indexhtml.png';
 
 ---
 
-<Box style={{ width: '68vw', textAlign: 'center' }}>
-
-<Text style={{ display: 'inline' }}>The term </Text>
-
-<Text style={{ display: 'inline', color: 'tomato' }}>Micro Frontends </Text>
+<Box style={{ width: '65vw', textAlign: 'center' }}>
 
 <Text style={{ display: 'inline' }}>
-  was first used in 2016 by ThoughtWorks Technology Radar to extend the concept
-  of micro services to the front-end world.
+  The term{' '}
+  <Text style={{ display: 'inline', color: 'tomato' }}>"Micro Frontends" </Text>
+  was first used in 2016 in a ThoughtWorks Technology Radar to extend the concept
+  of <Text style={{ display: 'inline', color: 'tomato' }}>micro services </Text>
+  to the front-end world. Since then, some companies have adopted the pattern in
+  a variety of different implementations, but it is still generally unknown.
 </Text>
 
 </Box>
+
+---
+
+<Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', alignItems: 'center', justifyContent: 'center' }}>
+
+# Popular Architecture Types
+
+</Flex>
 
 ---
 
@@ -208,17 +216,83 @@ import MFIndex from './assets/mf_indexhtml.png';
 
 </Flex>
 
-<!-- PROS AND CONS SECTION -->
+---
+
+<Flex
+  bg='#5F8BFA'
+  style={{
+    height: '100vh',
+    width: '100vw',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }}
+>
+  <Flex sx={{ width: '60vw' }}>
+    <Box sx={{ flex: 1, marginLeft: '50px' }}>
+      <Text sx={{ fontSize: 44, fontWeight: 'bold' }}>Pros</Text>
+      <ul>
+        <Steps>
+          <li>
+            Merge conflicts are more rare because developers are often working
+            in different repos
+          </li>
+          <li>
+            Each application is single-purpose, so its easy to navigate the code
+            and reason about its purpose
+          </li>
+          <li>
+            When a bug makes its way to production, it cannot affect more than
+            its own container
+          </li>
+          <li>Each app can use the tools that best solve its problems</li>
+          <li>
+            Modules can be built once and serve many modules; single source of
+            truth
+          </li>
+        </Steps>
+      </ul>
+    </Box>
+  </Flex>
+</Flex>
+
+---
+
+<Flex
+  bg='#5F8BFA'
+  style={{
+    height: '100vh',
+    width: '100vw',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }}
+>
+  <Flex sx={{ width: '60vw' }}>
+    <Box sx={{ flex: 1, marginLeft: '50px' }}>
+      <Text sx={{ fontSize: 44, fontWeight: 'bold' }}>Cons</Text>
+      <ul>
+        <Steps>
+          <li>
+            Modules are served across the network, bad for slow connections
+          </li>
+          <li>Complex deployment pipeline</li>
+          <li>Many services to run either locally or in custom cloud server</li>
+          <li>
+            If you're not thoughtful with your architecture, stories could touch
+            multiple repos, creating a very arduous development process
+          </li>
+        </Steps>
+      </ul>
+    </Box>
+  </Flex>
+</Flex>
 
 ---
 
 <Flex bg="#5F8BFA" style={{ height: '100vh', width: '100vw', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
 
-# Q&A Time with Andrew
+# Q&A Time
 
 </Flex>
-
-<!-- Q&A TIME -->
 
 ---
 
@@ -226,14 +300,14 @@ import MFIndex from './assets/mf_indexhtml.png';
 
 # Credits
 
-<a style={{ marginTop: '20px', color: 'white' }} href='https://carbon.now.sh'>
-  Carbon
-</a>
 <a
   style={{ marginTop: '20px', color: 'white' }}
   href='https://github.com/jxnblk/mdx-deck'
 >
   MDX-Deck
+</a>
+<a style={{ marginTop: '20px', color: 'white' }} href='https://carbon.now.sh'>
+  Carbon
 </a>
 <a style={{ marginTop: '20px', color: 'white' }} href='https://cleanshot.com/'>
   Cleanshot
