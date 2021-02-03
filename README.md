@@ -20,7 +20,8 @@ To run in, do the following:
 - [Micro-Frontends](https://micro-frontends.org/)
 - [ThoughtWorks Technology Radar: Micro-Frontends](https://www.thoughtworks.com/radar/techniques/micro-frontends)
 - [Tractor Demos](https://the-tractor.store/)
-- [This Repo (ooh recursion](https://github.com/dandrewgarvin/module-federation-masterclass)
+- [This Repo (ooh recursion)](https://github.com/dandrewgarvin/module-federation-masterclass)
+- [Module Federation Tutorial with NextJS](https://dev.to/hamatoyogi/let-s-build-micro-frontends-with-nextjs-and-module-federation-41en)
 
 ## Credits
 
